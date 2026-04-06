@@ -156,7 +156,7 @@ h2::before {
     padding: 24px;
     transition: all 0.3s ease;
     position: relative;
-    overflow: hidden;;
+    overflow: hidden;
 }
 
 .project-item:hover {
