@@ -1,7 +1,7 @@
 # 🚀 Portfólio | Gilson Pereira
 
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
-[[![Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://gilsoncataodev.github.io/portfolio/)]()
+[![Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://gilsoncataodev.github.io/portfolio/)
 [![HTML](https://img.shields.io/badge/HTML-5-orange)]()
 [![CSS](https://img.shields.io/badge/CSS-3-blue)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)]()
