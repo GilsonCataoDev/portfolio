@@ -1,13 +1,13 @@
 # 🚀 Portfólio | Gilson Pereira
 
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)]()
-[![Status](https://img.shields.io/badge/demo-indisponível-lightgrey)]()
+[[![Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://gilsoncataodev.github.io/portfolio/)]()
 [![HTML](https://img.shields.io/badge/HTML-5-orange)]()
 [![CSS](https://img.shields.io/badge/CSS-3-blue)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)]()
 
 🔗 **Acesse o projeto:**  
-*(Demo indisponível — GitHub Pages precisa ser reativado para o username GilsonCataoDev)*
+https://gilsoncataodev.github.io/portfolio/
 
 ---
 
