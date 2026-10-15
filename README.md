@@ -62,14 +62,14 @@ Landing page profissional desenvolvida com React + Vite.
 ### 🧬 Pokédex
 Aplicação que consome API de Pokémon.
 
-🔗 https://gilsonfarma.github.io/exercicio-dio-pokedex/
+🔗 https://gilsoncataodev.github.io/exercicio-dio-pokedex/
 
 ---
 
 ### ✅ Todo List
 Sistema simples de tarefas com persistência local.
 
-🔗 https://gilsonfarma.github.io/todo-list/
+🔗 https://gilsoncataodev.github.io/todo-list/
 
 
 ```bash
