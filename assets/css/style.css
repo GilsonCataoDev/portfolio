@@ -176,11 +176,51 @@ h2::before {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
 }
 
-.project-item img {
+.project-preview {
     width: 100%;
+    min-height: 180px;
     border-radius: 4px;
     margin-bottom: 20px;
     border: 1px solid var(--border-color);
+    display: grid;
+    place-items: center;
+    align-content: center;
+    gap: 4px;
+    position: relative;
+    overflow: hidden;
+}
+
+.project-preview span {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+    color: rgba(230, 237, 243, 0.65);
+    font-size: 0.8rem;
+}
+
+.project-preview strong {
+    font-size: 3.2rem;
+    letter-spacing: -4px;
+}
+
+.project-preview small {
+    letter-spacing: 0.2em;
+    font-size: 0.7rem;
+}
+
+.project-preview--binary {
+    background: radial-gradient(circle at 70% 30%, rgba(56, 189, 248, 0.35), transparent 38%), #101925;
+    color: var(--accent-cyan);
+}
+
+.project-preview--kurio {
+    background: radial-gradient(circle at 72% 30%, rgba(210, 138, 76, 0.45), transparent 38%), #1d120e;
+    color: #d28a4c;
+}
+
+.project-preview--clinvag {
+    background: radial-gradient(circle at 72% 30%, rgba(16, 185, 129, 0.35), transparent 38%), #10211e;
+    color: #5eead4;
 }
 
 .project-item h3 {
@@ -348,7 +388,7 @@ footer {
 }
 
 footer p:last-child::after {
-    content: " | Desenvolvido por Gilson Farma";
+    content: " | Desenvolvido por Gilson Pereira";
     color: var(--accent-green);
     opacity: 0.7;
 }
@@ -405,12 +445,6 @@ footer p:last-child::after {
     }
 }
 .reveal {
-    opacity: 0;
-    transform: translateY(60px);
-    transition: all 0.8s ease;
-}
-
-.reveal.active {
     opacity: 1;
     transform: translateY(0);
 }

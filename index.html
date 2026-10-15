@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio | Gilson Pereira</title>
+    <meta
+      name="description"
+      content="Portfólio de Gilson Pereira, estudante de ADS em transição para tecnologia."
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -21,17 +25,18 @@
           <li><a href="#" class="nav-link">Início</a></li>
           <li><a href="#about" class="nav-link">Sobre</a></li>
           <li><a href="#projects" class="nav-link">Projetos</a></li>
+          <li><a href="#skills" class="nav-link">Habilidades</a></li>
           <li><a href="#contact" class="nav-link">Contato</a></li>
         </ul>
       </nav>
       <img class="photo" src="assets/images/profile.png" alt="Foto de perfil" />
-      <h1 class="hero-title">Gilson Pereira | Front-End Developer</h1>
+      <h1 class="hero-title">Gilson Pereira | Desenvolvedor em formação</h1>
       <p class="hero-subtitle">
-        Desenvolvedor Full Stack em formação | HTML • CSS • JavaScript • React
+        Análise e Desenvolvimento de Sistemas | React • TypeScript • Node.js
       </p>
       <p class="hero-description">
-        Criando experiências web responsivas e funcionais com foco em qualidade
-        e performance.
+        Em transição para tecnologia, construindo aplicações web e estudando
+        desenvolvimento, dados e suporte técnico.
       </p>
       <div class="hero-info">
         <span class="location">📍 Garanhuns - PE</span>
@@ -42,13 +47,11 @@
     <section class="about reveal" id="about">
       <h2>Sobre Mim</h2>
       <p>
-        Sou estudante de Análise e Desenvolvimento de Sistemas com foco em
-        desenvolvimento Front-End. Desenvolvo projetos práticos utilizando HTML,
-        CSS e JavaScript, aplicando conceitos de responsividade, organização de
-        código e boas práticas. Atualmente estou evoluindo em React e integração
-        com APIs, buscando criar interfaces modernas, funcionais e escaláveis.
-        Busco minha primeira oportunidade como desenvolvedor para contribuir com
-        projetos reais e crescer em um ambiente colaborativo.
+        Sou estudante de Análise e Desenvolvimento de Sistemas e farmacêutico em
+        transição para tecnologia. Aprendo construindo projetos práticos com
+        interfaces responsivas, integração de dados, documentação e testes.
+        Busco estágio ou vaga júnior em desenvolvimento ou suporte técnico para
+        contribuir com produtos reais e seguir evoluindo em equipe.
       </p>
     </section>
     <!-- lista de projetos -->
@@ -56,76 +59,89 @@
       <h2>Projetos</h2>
       <div class="project-list">
         <div class="project-item">
-          <img
-            src="assets/images/projects/project-1.png"
-            alt="Site para Psicólogos"
-          />
-          <h3>Site para Psicólogos</h3>
+          <div class="project-preview project-preview--binary" aria-hidden="true">
+            <span>01</span><strong>BI</strong><small>RESEARCH</small>
+          </div>
+          <h3>Binary Intelligence</h3>
           <p class="project-description">
-            Site institucional elegante e responsivo para psicólogas com
-            presença digital profissional.
+            Pesquisa full stack de viabilidade para opções binárias, com
+            backtesting, dados de mercado e execução real bloqueada por segurança.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NestJS</span>
+            <span class="tech-tag">PostgreSQL</span>
+          </div>
+          <div class="project-buttons">
+            <a
+              href="https://github.com/GilsonCataoDev/Binary-intelligence"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              >Ver projeto</a
+            >
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-preview project-preview--kurio" aria-hidden="true">
+            <span>02</span><strong>K</strong><small>MARKETPLACE</small>
+          </div>
+          <h3>Kurio</h3>
+          <p class="project-description">
+            Marketplace de NFTs com catálogo, carrinho, autenticação simulada,
+            dados em tempo real e testes de ponta a ponta.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">React</span>
+            <span class="tech-tag">TypeScript</span>
+            <span class="tech-tag">Playwright</span>
+          </div>
+          <div class="project-buttons">
+            <a
+              href="https://task-jungle-gaming.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary"
+              >Ver Demo</a
+            >
+            <a
+              href="https://github.com/GilsonCataoDev/Task-jungle-gaming"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-secondary"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div class="project-item">
+          <div class="project-preview project-preview--clinvag" aria-hidden="true">
+            <span>03</span><strong>CV</strong><small>HEALTH</small>
+          </div>
+          <h3>Clinvag</h3>
+          <p class="project-description">
+            Landing page publicada para uma clínica de vacinação, com navegação
+            responsiva e chamada direta para agendamento.
           </p>
           <div class="project-tech">
             <span class="tech-tag">React</span>
             <span class="tech-tag">Vite</span>
-            <span class="tech-tag">CSS</span>
+            <span class="tech-tag">CSS Modules</span>
           </div>
           <div class="project-buttons">
             <a
-              href="https://allanyrodrigues.vercel.app/"
+              href="https://clinvag.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               class="btn btn-primary"
               >Ver Demo</a
             >
-            <a href="#" class="btn btn-secondary">GitHub</a>
-          </div>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/projects/project-2.png" alt="Pokedex" />
-          <h3>Pokedex</h3>
-          <p class="project-description">
-            Aplicação que consome API pública de Pokémon para exibir informações
-            detalhadas sobre cada criatura.
-          </p>
-          <div class="project-tech">
-            <span class="tech-tag">HTML</span>
-            <span class="tech-tag">CSS</span>
-            <span class="tech-tag">JavaScript</span>
-            <span class="tech-tag">API Rest</span>
-          </div>
-          <div class="project-buttons">
             <a
-              href="https://gilsoncataodev.github.io/exercicio-dio-pokedex/"
+              href="https://github.com/GilsonCataoDev/Clinvag"
               target="_blank"
               rel="noopener noreferrer"
-              class="btn btn-primary"
-              >Ver Demo</a
+              class="btn btn-secondary"
+              >GitHub</a
             >
-            <a href="#" class="btn btn-secondary">GitHub</a>
-          </div>
-        </div>
-        <div class="project-item">
-          <img src="assets/images/projects/project-3.png" alt="Todo-list" />
-          <h3>Todo-List</h3>
-          <p class="project-description">
-            Aplicação para organizar tarefas com persistência de dados no
-            localStorage do navegador.
-          </p>
-          <div class="project-tech">
-            <span class="tech-tag">JavaScript</span>
-            <span class="tech-tag">HTML</span>
-            <span class="tech-tag">CSS</span>
-          </div>
-          <div class="project-buttons">
-            <a
-              href="https://gilsoncataodev.github.io/todo-list/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="btn btn-primary"
-              >Ver Demo</a
-            >
-            <a href="#" class="btn btn-secondary">GitHub</a>
           </div>
         </div>
       </div>
@@ -135,28 +151,28 @@
       <h2>Habilidades</h2>
       <div class="skills-grid">
         <div class="skill-card">
-          <h3>HTML5</h3>
-          <p>Semântica, acessibilidade e estrutura de documentos.</p>
+          <h3>React & TypeScript</h3>
+          <p>Componentes, tipagem, roteamento e interfaces responsivas.</p>
         </div>
         <div class="skill-card">
-          <h3>CSS3</h3>
-          <p>Layouts responsivos, animações e design moderno.</p>
+          <h3>JavaScript & Web</h3>
+          <p>DOM, APIs REST, HTML semântico e CSS responsivo.</p>
         </div>
         <div class="skill-card">
-          <h3>JavaScript</h3>
-          <p>DOM, ES6+, API REST e manipulação dinâmica.</p>
+          <h3>Node.js & Dados</h3>
+          <p>Node.js, NestJS, PostgreSQL e Prisma em evolução.</p>
         </div>
         <div class="skill-card">
-          <h3>React</h3>
-          <p>Componentes, hooks e consumo de APIs.</p>
+          <h3>Testes</h3>
+          <p>Playwright e validação de comportamento em projetos práticos.</p>
         </div>
         <div class="skill-card">
           <h3>Git & GitHub</h3>
-          <p>Controle de versão e colaboração em projetos.</p>
+          <p>Versionamento, documentação e publicação de projetos.</p>
         </div>
         <div class="skill-card">
-          <h3>Responsividade</h3>
-          <p>Mobile-first, media queries e designs adaptativos.</p>
+          <h3>Suporte Técnico</h3>
+          <p>Estudo de redes, Linux, troubleshooting e atendimento técnico.</p>
         </div>
       </div>
     </section>
@@ -164,7 +180,7 @@
     <section class="contact reveal" id="contact">
       <h2>Vamos Trabalhar Junto?</h2>
       <p class="contact-main">
-        Estou aberto a novas oportunidades e desafios. Conecte-se comigo!
+        Busco estágio ou vaga júnior em desenvolvimento ou suporte técnico.
       </p>
       <div class="contact-links">
         <a href="mailto:gilsonfilho96@outlook.com" class="contact-link"
@@ -195,7 +211,7 @@
     </section>
 
     <footer>
-      <p>Usado para estudos e práticas de desenvolvimento web.</p>
+      <p>Projetos práticos desenvolvidos para aprendizado e evolução profissional.</p>
       <p>Copyright © 2026 Portfólio | Gilson Pereira</p>
     </footer>
 
